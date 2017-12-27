@@ -1,0 +1,84 @@
+html{
+    background: black;
+}
+body{
+    background: white;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    color: #444;
+}
+header{
+    background: #ededed;
+    padding: 20px 40px;
+    overflow: hidden;
+}
+.header_left{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+img{
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+}
+h1{
+    margin:2px;
+}
+h2{
+    margin: 2px;
+}
+.header_right{
+    float: right;
+}
+.header_right p{
+    margin: 2px;
+}
+footer{
+    padding: 20px 40px;
+    clear: both;
+    overflow: hidden;
+}
+.row{
+    border-bottom: 1px solid rgb(196, 245, 245);
+    overflow: hidden;
+    clear: both;
+}
+.row:last-child{
+    border-bottom: none;
+}
+.col_left{
+    float: left;
+    width: 25%;
+}
+.col_left h3{
+    font-style: italic;
+}
+.col_right{
+    float: right;
+    width: 75%;
+}
+h5{
+    font-style: italic;
+    margin: 0;
+}
+.col_right h3{
+    margin-bottom: 2px;
+}
+.smiller_contant{
+    float: left;
+    list-style: none;
+    width: 33%;
+}
+input,label{
+    display: block;
+}
+form{
+    margin-top: 20px;
+}
+
+
+
+
+
